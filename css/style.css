@@ -1,0 +1,46 @@
+
+@import url("../components/fadeIn.css");
+@import url("../components/lightbocks.css");
+@import url("../components/navbar.css");
+@import url("../components/main-content.css");
+
+:root {
+	--background:  rgba(15,32,09,0.6);
+}
+
+
+.fadeIn
+
+
+*, *::before, *::after {
+	box-sizing: border-box;
+}
+
+body{
+	margin: 0;
+	background: #485563;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #29323c, #485563);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #29323c, #485563); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+
+
+	font-family: 'Helvetica'; 
+	font-weight: 400;
+}
+
+.row-c{
+	height: 100vh;
+	background-color: white;
+}
+
+html {
+	scroll-behavior: smooth;
+}
+
+
+@font-face {
+font-family: 'Lota Grotesque Light';
+font-style: normal;
+font-weight: normal;
+src: local('Lota Grotesque Light'), url('../fonts/Los Andes  Lota Grotesque Light.woff') format('woff');
+}
